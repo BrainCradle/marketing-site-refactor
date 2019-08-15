@@ -1,0 +1,99 @@
+
+.thesaas-sections-split .section,
+.thesaas-sections-split .main-content .topbar,
+.thesaas-sections-split .main-content .site-footer {
+  margin: 30px 50px 100px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ebebeb;
+}
+
+.thesaas-sections-split .main-content .topbar {
+  position: static;
+}
+
+.thesaas-sections-split .main-content .topbar .topbar-toggler {
+  display: none;
+}
+
+.thesaas-sections-split .section-info {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 60px;
+}
+
+.thesaas-sections-split.topbar-reveal .main-content .topbar-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .thesaas-sections-split .section,
+  .thesaas-sections-split .main-content .site-footer {
+    margin: 30px 0 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+}
+
+
+/*!  CSS Elements from page.css in V2.0.2*/
+
+/*!  Process Outline: http://preview.themeforest.net/item/thesaas-responsive-bootstrap-saas-software-webapp-template/full_screen_preview/19778599?_ga=2.90290138.1139208974.1534463680-1630803823.1534463680 */
+.step {
+  list-style: none;
+  margin: 0;
+}
+
+.step-item {
+  display: -webkit-box;
+  display: flex;
+  padding: 1rem 0;
+}
+
+.step-icon {
+  position: relative;
+  width: 7rem;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.step-icon .iconbox {
+  color: #bfc5ca;
+  background-color: #eaeff4;
+  font-size: 1.5rem;
+}
+
+.step-icon::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 48px;
+  bottom: -2rem;
+  margin-left: -1px;
+  border-left: 2px dashed #eaeff4;
+}
+
+.step-content {
+  margin-left: 1rem;
+}
+
+.step .step-item:last-child .step-icon::before {
+  bottom: 1rem;
+}
+
+iframe {
+  border: none;
+  width: 0px;
+  height: 0px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+  display:block; /* Add this */
+}
+
+/*!  CSS Elements from page.css in V2.0.2*/
+
+/*!  Process Outline:
